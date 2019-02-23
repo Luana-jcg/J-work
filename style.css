@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+}
+
+main{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header{
+    width: 1000px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#logo{
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 90px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: #660000;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.coluna{
+    width: 220px;
+    float: left;
+    margin-right: 40px;
+    color: #333;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.coluna:last-child{
+    margin-right: 0;
+}
+
+.coluna h2{
+    color: #660000;
+    font-size: 20px;
+    margin: 0;
+}
+
+.coluna a{
+    color: #660000;
+    font-size: 15px;
+}
+
+
+
+
+
